@@ -8,7 +8,6 @@ import { ArrowLeft, Share2, Bookmark, Clock, Calendar } from "lucide-react";
 export default function ArticlePage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
       <header className="sticky top-0 z-50 bg-white border-b-2 border-gray-300 px-4 py-4 shadow-sm">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -62,9 +61,7 @@ export default function ArticlePage() {
         </div>
       </header>
 
-      {/* Article Content */}
       <article className="max-w-6xl mx-auto px-4 py-8">
-        {/* Back Navigation */}
         <Link
           href="/"
           className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 mb-8"
@@ -78,8 +75,7 @@ export default function ArticlePage() {
           <Badge className="bg-blue-100 text-blue-800 mb-4">News</Badge>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            Panitia SNPMB Darwin Sulistio Terbukti Terima Suap Demi Meloloskan
-            Peserta SNBT
+            Terbongkar! Darwin Sulistio Terima Suap demi Loloskan Peserta SNBT
           </h1>
 
           <div className="flex flex-col gap-2 mb-6">
@@ -87,7 +83,6 @@ export default function ArticlePage() {
               <strong>Indonesia News Station - </strong>05/27/2025, 7 mins ago
             </div>
 
-            {/* Bagian Avatar dan Info Penulis */}
             <div className="flex items-start gap-4 mt-3">
               <div className="w-10 h-10 rounded-full overflow-hidden">
                 <Avatar className="w-10 h-10">
@@ -97,7 +92,6 @@ export default function ArticlePage() {
                   </AvatarFallback>
                 </Avatar>
               </div>
-
               <div className="flex flex-col">
                 <span className="font-semibold text-base">Roby Wardana</span>
                 <span className="text-muted-foreground text-sm">
