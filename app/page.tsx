@@ -62,13 +62,6 @@ export default function ArticlePage() {
       </header>
 
       <article className="max-w-6xl mx-auto px-4 py-8">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 mb-8"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          Back to Articles
-        </Link>
 
         {/* Article Header */}
         <header className="mb-8">
@@ -105,12 +98,12 @@ export default function ArticlePage() {
         {/* Hero Image */}
         <div className="relative w-full h-80 mb-8">
           <Image
-            src="/images/kpk1.jpg"
+            src="/images/kpk1.JPG"
             alt="Gambar ilustrasi KPK"
             fill
             className="object-cover rounded-lg"
           />
-        </div>
+        </div>
 
         {/* Article Body */}
         <div className="prose prose-lg max-w-none">
