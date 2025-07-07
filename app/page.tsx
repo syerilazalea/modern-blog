@@ -93,7 +93,7 @@ export default function BlogHomePage() {
                   </Avatar>
                   <span className="font-medium text-gray-900">Sarah Johnson</span>
                 </div>
-                <Link href="/articles/future-of-web-development">
+                <Link href="/articles/berita-korupsi-panitia-snpmb-2025">
                   <Button variant="outline">Read More →</Button>
                 </Link>
               </div>
