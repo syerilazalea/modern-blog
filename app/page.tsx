@@ -98,7 +98,7 @@ export default function ArticlePage() {
         {/* Hero Image */}
         <div className="relative w-full h-80 mb-8">
           <Image
-            src="/images/hero.JPG"
+            src="/images/hero.PNG"
             alt="Gambar ilustrasi KPK"
             fill
             className="object-cover rounded-lg"
