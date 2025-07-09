@@ -98,7 +98,7 @@ export default function ArticlePage() {
         {/* Hero Image */}
         <div className="relative w-full h-80 mb-8">
           <Image
-            src="/images/kpk1.JPG"
+            src="/images/hero.JPG"
             alt="Gambar ilustrasi KPK"
             fill
             className="object-cover rounded-lg"
@@ -121,7 +121,7 @@ export default function ArticlePage() {
           <p className=" text-xl text-xl text-gray-700 mb-6 leading-relaxed">
             Dalam putusan yang dibacakan awal Mei 2025, Darwin terbukti menerima
             sejumlah uang dari orang tua calon mahasiswa sebagai imbalan untuk
-            "mengatur kelulusan" peserta tertentu dalam ujian SNBT. Modus yang
+            "mengatur kelulusan" peserta tertentu dalam ujian SNBT dan seleksi jalur Mandiri. Modus yang
             digunakan Darwin adalah dengan memanipulasi hasil tes serta mengatur
             kuota penerimaan agar peserta yang menyuap dapat diterima di
             perguruan tinggi negeri favorit.
@@ -176,12 +176,11 @@ export default function ArticlePage() {
             (Kemendikbudristek) menyatakan akan melakukan evaluasi menyeluruh
             terhadap sistem SNPMB, serta memperkuat transparansi dan
             akuntabilitas agar kejadian serupa tidak terulang.
+            
           </p>
 
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Kasus ini menjadi peringatan keras bahwa integritas dalam dunia
-            pendidikan adalah harga mati, dan segala bentuk manipulasi demi
-            kepentingan pribadi harus ditindak tegas.
+            
           </p>
 
           <p className="text-gray-500 text-sm mb-4">
